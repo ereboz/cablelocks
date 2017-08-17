@@ -577,21 +577,25 @@ body {
     margin-right: -15px;
     
     li {
+        
+        a {
+            color: @white !important;
+            text-shadow: 0 1px 1px rgba(100,100,100,.6);
+        }
+    
+        a:hover{
+            color: @black !important;
+        }
+        
         &:hover {
             background-color: lighten(@gray-dark, 40%);
             border-left: 1px dashed @white;
             border-right: 1px dashed @white;
             
-            a {
-                color: @black;
-            }
+
         }
         
-        a {
-            color: @black !important;
-        }
     }
-    
 }
 
 #myNavbar {

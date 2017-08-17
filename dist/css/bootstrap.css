@@ -7248,16 +7248,17 @@ body {
   margin-left: -15px;
   background-color: #c8c8c8;
 }
+.main-nav li a {
+  color: #fff !important;
+  text-shadow: 0 1px 1px rgba(100, 100, 100, .6);
+}
+.main-nav li a:hover {
+  color: #000 !important;
+}
 .main-nav li:hover {
   background-color: #e1e1e1;
   border-right: 1px dashed #fff;
   border-left: 1px dashed #fff;
-}
-.main-nav li:hover a {
-  color: #000;
-}
-.main-nav li a {
-  color: #000 !important;
 }
 @media (min-width: 768px) {
   #myNavbar {
