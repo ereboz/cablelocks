@@ -7257,8 +7257,8 @@ body {
 }
 .main-nav li:hover {
   background-color: #e1e1e1;
-  border-right: 1px dashed #fff;
-  border-left: 1px dashed #fff;
+  border-right: 1px dashed #232f3f;
+  border-left: 1px dashed #232f3f;
 }
 @media (min-width: 768px) {
   #myNavbar {
