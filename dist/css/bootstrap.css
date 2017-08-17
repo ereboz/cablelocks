@@ -7254,17 +7254,13 @@ body {
 .main-nav li a {
   color: #000 !important;
 }
-#myNavbar {
-  width: 70%;
-  margin: 0 auto;
-}
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   #myNavbar {
-    width: 70%;
+    width: 65%;
     margin: 0 auto;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   #myNavbar {
     width: 45%;
     margin: 0 auto;
