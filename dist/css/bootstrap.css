@@ -7313,17 +7313,17 @@ body {
   }
 }
 #myCarousel .carousel-inner .item {
-  background-image: url("http://localhost:63342/cablelocks/dist/images/bg-slide-blank.jpg");
+  background-image: url("/skins/skin_22_cablelocks/dist/images/bg-slide-blank.jpg");
 }
 @media (min-width: 1200px) {
   #myCarousel .carousel-inner .item.slide1 {
-    background-image: url("http://localhost:63342/cablelocks/dist/images/bg-slide-blank.jpg");
+    background-image: url("/skins/skin_22_cablelocks/dist/images/bg-slide-blank.jpg");
   }
   #myCarousel .carousel-inner .item.slide2 {
-    background-image: url("http://localhost:63342/cablelocks/dist/images/bg-slide2.jpg");
+    background-image: url("/skins/skin_22_cablelocks/dist/images/bg-slide2.jpg");
   }
   #myCarousel .carousel-inner .item.slide3 {
-    background-image: url("http://localhost:63342/cablelocks/dist/images/bg-slide3.jpg");
+    background-image: url("/skins/skin_22_cablelocks/dist/images/bg-slide3.jpg");
   }
 }
 #myCarousel .carousel-inner .item img {
