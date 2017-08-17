@@ -46,17 +46,16 @@ unpolluted with (col-md-4 col-lg-6, etc.)
 ========================================================================== */
 
 // Font Variables
-@font-anton: 'Anton', sans-serif;           // domain name primaryily
-@font-subnav: "Bitter Regular", "Segoe UI", "Trebuchet MS", Verdana, sans-serif;
-@font-nunito: 'Nunito Sans', sans-serif;
+@font-body: 'Overpass', sans-serif;
 @font-roboto: "Roboto",sans-serif;
-@font-worksans: 'Work Sans', sans-serif; // ?
-@font-didact: 'Didact Gothic', sans-serif;
-@font-assistant: 'Assistant', sans-serif;
+@font-nunito: 'Nunito Sans', sans-serif;
+@font-title: 'Roboto Condensed', sans-serif;
+
 
 
 // Color Variables
 @black: #000;
+@dark-slate-gray: #232f3f;
 @blue: #29ABE2;
 @blue1: #337ab7;
 @blue2: #286090;
@@ -78,7 +77,6 @@ unpolluted with (col-md-4 col-lg-6, etc.)
 @light-gray5: #e0dcdc;
 @light-gray6: #dedada;
 @med-gray: #616161;
-@powder-blue: rgba(41, 171, 226, 0.06); // not used
 @red: #ff0000;
 @slate-gray: #444f45;
 @white: #fff;
@@ -213,7 +211,7 @@ unpolluted with (col-md-4 col-lg-6, etc.)
 ========================================================================== */
 
 body {
-    font-family: @font-assistant !important;
+    font-family: @font-body !important;
 }
 
 .btn {
@@ -244,7 +242,6 @@ body {
 }
 
 .wrapper-banner {
-    //margin: 20px 0;                 // temp remove
     font-family: @font-nunito;
     font-size: 12px;
     color: @white;
@@ -363,7 +360,7 @@ body {
 
     .subnavall {
         height: 50px;
-        background-color: @blue-primary;
+        background-color: lighten(@dark-slate-gray, 10%);
         //background-image: url("http://localhost:63342/keyeddifferent/dist/images/bg-banner.jpg");
         //background-image: url("/skins/skin_22/dist/images/bg-banner.jpg");
     }
@@ -423,10 +420,9 @@ body {
         }
         
         .domain-1 {
-            margin-right: 5px;
             font-size: 30px;
-            font-weight: 400;
-            font-family: @font-anton;
+            font-weight: 700;
+            font-family: @font-title;
             color: @white;
             text-transform: uppercase;
             letter-spacing: 1px;
@@ -449,7 +445,7 @@ body {
         .domain-2 {
             font-size: 30px;
             font-weight: 400;
-            font-family: @font-anton;
+            font-family: @font-title;
             color: @white;
             text-transform: uppercase;
             letter-spacing: 1px;
@@ -572,7 +568,7 @@ body {
 
 .main-nav {
     margin-bottom: 0;
-    background-color: @blue-secondary;
+    background-color: rgba(208, 208, 208, 0.53);
     margin-left: -15px;
     margin-right: -15px;
     
@@ -583,12 +579,12 @@ body {
             border-right: 1px dashed @white;
             
             a {
-                color: @white;
+                color: @black;
             }
         }
         
         a {
-            color: @white !important;
+            color: @black !important;
         }
     }
     
@@ -1349,7 +1345,7 @@ FOOTER SECTION
     width: 500px;
     background: @dark-gray;
 	color: @white;
-    font-family: @font-subnav;
+    font-family: @font-body;
     
     @media @desktop-min {
         width: 400px;
@@ -2627,11 +2623,11 @@ h3.checkout-header i.checkout-status{
 ========================================================================== */
 
 .topic-page .formtext {
-    font-family: @font-subnav;
+    font-family: @font-body;
     font-size: 16px;
     
     span {
-        font-family: @font-subnav;
+        font-family: @font-body;
         font-size: 16px;
     }
 }
@@ -2763,7 +2759,7 @@ p {
 /* Shipping Information
 ========================================================================== */
 .topic-page {
-    font-family: @font-subnav;
+    font-family: @font-body;
     font-size: 16px;
     
     strong {
@@ -2785,7 +2781,7 @@ p {
 .topic-page {
     .letter {
         font-size: 24px;
-        font-family: @font-subnav;
+        font-family: @font-body;
         color: @black;
         padding-bottom: 10px !important;
     }

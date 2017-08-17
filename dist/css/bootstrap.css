@@ -6887,7 +6887,7 @@ unpolluted with (col-md-4 col-lg-6, etc.)
 /* PAGE OVERRIDES
 ========================================================================== */
 body {
-  font-family: 'Assistant', sans-serif !important;
+  font-family: 'Overpass', sans-serif !important;
 }
 .btn {
   color: #000;
@@ -7018,7 +7018,7 @@ body {
 }
 .wrapper-subnav .subnavall {
   height: 50px;
-  background-color: #497890;
+  background-color: #354760;
 }
 .logo {
   float: left;
@@ -7085,10 +7085,9 @@ body {
   }
 }
 .subnav-left .domain-wrapper .domain-1 {
-  margin-right: 5px;
-  font-family: 'Anton', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   font-size: 30px;
-  font-weight: 400;
+  font-weight: 700;
   color: #fff;
   text-shadow: 1px 1px 2px #7b7b7b;
   text-transform: uppercase;
@@ -7110,7 +7109,7 @@ body {
   }
 }
 .subnav-left .domain-wrapper .domain-2 {
-  font-family: 'Anton', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   font-size: 30px;
   font-weight: 400;
   color: #fff;
@@ -7242,7 +7241,7 @@ body {
   margin-right: -15px;
   margin-bottom: 0;
   margin-left: -15px;
-  background-color: #b7b7b7;
+  background-color: rgba(208, 208, 208, .53);
 }
 .main-nav li:hover {
   background-color: #8f8f8f;
@@ -7250,10 +7249,10 @@ body {
   border-left: 1px dashed #fff;
 }
 .main-nav li:hover a {
-  color: #fff;
+  color: #000;
 }
 .main-nav li a {
-  color: #fff !important;
+  color: #000 !important;
 }
 #myNavbar {
   float: left;
@@ -8011,7 +8010,7 @@ FOOTER SECTION
 }
 .info-footer {
   width: 500px;
-  font-family: "Bitter Regular", "Segoe UI", "Trebuchet MS", Verdana, sans-serif;
+  font-family: 'Overpass', sans-serif;
   color: #fff;
   background: #333;
 
@@ -8986,11 +8985,11 @@ h3.checkout-header i.checkout-status {
 /* Privacy Policy
 ========================================================================== */
 .topic-page .formtext {
-  font-family: "Bitter Regular", "Segoe UI", "Trebuchet MS", Verdana, sans-serif;
+  font-family: 'Overpass', sans-serif;
   font-size: 16px;
 }
 .topic-page .formtext span {
-  font-family: "Bitter Regular", "Segoe UI", "Trebuchet MS", Verdana, sans-serif;
+  font-family: 'Overpass', sans-serif;
   font-size: 16px;
 }
 p.formtext > strong {
@@ -9088,7 +9087,7 @@ p.formtext > strong {
 /* Shipping Information
 ========================================================================== */
 .topic-page {
-  font-family: "Bitter Regular", "Segoe UI", "Trebuchet MS", Verdana, sans-serif;
+  font-family: 'Overpass', sans-serif;
   font-size: 16px;
 }
 .topic-page strong {
@@ -9103,7 +9102,7 @@ p.formtext > strong {
 ========================================================================== */
 .topic-page .letter {
   padding-bottom: 10px !important;
-  font-family: "Bitter Regular", "Segoe UI", "Trebuchet MS", Verdana, sans-serif;
+  font-family: 'Overpass', sans-serif;
   font-size: 24px;
   color: #000;
 }
