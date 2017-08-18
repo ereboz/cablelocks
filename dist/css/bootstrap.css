@@ -7555,49 +7555,6 @@ span.glyphicon.glyphicon-chevron-left {
     margin-top: 80%;
   }
 }
-.wrapper-category {
-  margin: 0 auto 50px auto;
-}
-@media (min-width: 768px) {
-  .wrapper-category {
-    margin-bottom: 60px;
-  }
-}
-.wrapper-category .element {
-  position: relative;
-  min-height: 1px;
-  padding-right: 15px;
-  padding-left: 15px;
-}
-@media (max-width: 375px) {
-  .wrapper-category .element {
-    margin-bottom: 10px;
-  }
-}
-@media (min-width: 768px) {
-  .wrapper-category .element {
-    float: left;
-    width: 33.33333333%;
-  }
-}
-.category {
-  margin: 5px auto;
-  border: 1px solid #e0e0e0;
-  -webkit-box-shadow: 2px 2px 5px #d3d3d3;
-          box-shadow: 2px 2px 5px #d3d3d3;
-
-      -ms-box-shadow: 2px 2px 5px #d3d3d3;
-       -o-box-shadow: 2px 2px 5px #d3d3d3;
-}
-.category:hover {
-  border: 1px solid #000;
-}
-@media (max-width: 480px) {
-  .category {
-    width: 65%;
-    height: auto;
-  }
-}
 .product-slider-wrapper {
   margin: 35px auto 50px auto;
 }
