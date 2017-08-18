@@ -622,7 +622,7 @@ body {
     }
 }
 
-// START TOOL TIP IMAGE HOVER OVER MAIN NAV
+// START TOOL-TIP IMAGE HOVER OVER MAIN NAV
 
 .tooltip1 {
     text-decoration: none;
@@ -630,64 +630,66 @@ body {
     text-shadow: 0 1px 1px rgba(0,0,0,.6);
 }
 
-
-.tooltip1 span.tool-tip-wrapper {
-    display: none;
-    -moz-border-radius: 6px;
-    -webkit-border-radius: 6px;
-    border-radius: 6px;
-    color: @black;
-    background: @white;
+.tooltip1 {
+    span.tool-tip-wrapper {
+        display: none;
+        -moz-border-radius: 6px;
+        -webkit-border-radius: 6px;
+        border-radius: 6px;
+        color: @black;
+        background: @white;
+    }
 }
 
-
-.tooltip1 span.tool-tip-wrapper img {
-    //float: left;
-    margin: 10px auto 20px auto;
+.tooltip1 {
+    span.tool-tip-wrapper img {
+        margin: 10px auto 20px auto;
+    }
 }
 
-
-.tooltip1:hover span.tool-tip-wrapper {
-    display: block;
-    position: absolute;
-    top: 40px;
-    left: -35px;
-    width: 150px;
-    max-width: 150px;
-    border: 1px dotted @dark-slate-gray;
-    overflow: hidden;
-    padding: 10px;
-    z-index: 1;
-    color: @dark-slate-gray;
-    background-color: @white;
-    text-align: center;
-    .box-shadow(5px 5px 5px @gray-light);
-    
-    &.cable {
+.tooltip1:hover {
+    span.tool-tip-wrapper {
+        display: block;
+        position: absolute;
         top: 40px;
         left: -35px;
-    }
-    
-    &.cable-lock {
-        top: 40px;
-        left: -7px;
-    }
-    
-    span:first-of-type {
-        display: inline-block;
-        color: @blue1;
-        font-size: 14px;
-        margin-bottom: 5px;
-    }
-    
-    span:last-child {
-        display: inline-block;
-        color: @slate-gray;
-        font-size: 11px;
+        width: 150px;
+        max-width: 150px;
+        border: 1px dotted @dark-slate-gray;
+        overflow: hidden;
+        padding: 10px;
+        z-index: 1;
+        color: @dark-slate-gray;
+        background-color: @white;
+        text-align: center;
+        .box-shadow(5px 5px 5px @gray-light);
+        
+        &.cable {
+            top: 40px;
+            left: -34px;
+        }
+        
+        &.cable-lock {
+            top: 40px;
+            left: -7px;
+        }
+        
+        span:first-of-type {
+            display: inline-block;
+            color: @blue1;
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+        
+        span:last-child {
+            display: inline-block;
+            color: @slate-gray;
+            font-size: 11px;
+        }
     }
 }
 
-// END TOOL TIP IMAGE HOVER OVER MAIN NAV
+// END TOOL-TIP IMAGE HOVER OVER MAIN NAV
 
 // bootsrrap override
 .navbar-default .navbar-brand {
