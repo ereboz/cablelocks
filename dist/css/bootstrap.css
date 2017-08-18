@@ -7257,8 +7257,8 @@ body {
 }
 .main-nav li:hover {
   background-color: #e1e1e1;
-  border-right: 1px dashed #232f3f;
-  border-left: 1px dashed #232f3f;
+  border-right: 1px dotted #232f3f;
+  border-left: 1px dotted #232f3f;
 }
 @media (min-width: 768px) {
   #myNavbar {
@@ -7280,6 +7280,59 @@ body {
 }
 #myNavbar .navbar-nav:first-child {
   margin-top: -4px;
+}
+.tooltip1 {
+  position: relative;
+  text-decoration: none;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, .6);
+}
+.tooltip1 span.tool-tip-wrapper {
+  display: none;
+  color: #000;
+  background: #fff;
+  border-radius: 6px;
+}
+.tooltip1 span.tool-tip-wrapper img {
+  margin: 10px auto 20px auto;
+}
+.tooltip1:hover span.tool-tip-wrapper {
+  position: absolute;
+  top: 40px;
+  left: -35px;
+  z-index: 1;
+  display: block;
+  width: 150px;
+  max-width: 150px;
+  padding: 10px;
+  overflow: hidden;
+  color: #232f3f;
+  text-align: center;
+  background-color: #fff;
+  border: 1px dotted #232f3f;
+  -webkit-box-shadow: 5px 5px 5px #d3d3d3;
+          box-shadow: 5px 5px 5px #d3d3d3;
+
+      -ms-box-shadow: 5px 5px 5px #d3d3d3;
+       -o-box-shadow: 5px 5px 5px #d3d3d3;
+}
+.tooltip1:hover span.tool-tip-wrapper.cable {
+  top: 40px;
+  left: -35px;
+}
+.tooltip1:hover span.tool-tip-wrapper.cable-lock {
+  top: 40px;
+  left: -7px;
+}
+.tooltip1:hover span.tool-tip-wrapper span:first-of-type {
+  display: inline-block;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #337ab7;
+}
+.tooltip1:hover span.tool-tip-wrapper span:last-child {
+  display: inline-block;
+  font-size: 11px;
+  color: #444f45;
 }
 .navbar-default .navbar-brand a:link {
   color: #fff;
