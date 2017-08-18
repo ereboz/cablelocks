@@ -7321,7 +7321,7 @@ body {
 }
 .tooltip1:hover span.tool-tip-wrapper.cable-lock {
   top: 40px;
-  left: -7px;
+  left: -1px;
 }
 .tooltip1:hover span.tool-tip-wrapper span:first-of-type {
   display: inline-block;

@@ -110,9 +110,31 @@
                     </div>
                     <div class="collapse navbar-collapse" id="myNavbar">
                         <ul class="nav navbar-nav">
-                            <li><a href="@Url.BuildEntityLink("Category", 21, "Cables")">Cables</a></li>
-                            <li><a href="@Url.BuildEntityLink("Category", 22, "Cable Locks")">Cable Locks</a></li>
-                            <li><a href="@Url.BuildEntityLink("Category", 14, "Accessories")">Accessories</a></li>
+                            <li>
+                                <a class="tooltip1" href="@Url.BuildEntityLink("Category", 21, "Cables")">
+                                    Cables
+                                    <span class="tool-tip-wrapper cable">
+                                        <img class="img-responsive" src="/skins/skin_22_cablelocks/dist/images/tooltip-cable.png">
+                                        <span>Custom Cables</span>
+                                        <span>Bikes, Gates, Home...</span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="tooltip1" href="@Url.BuildEntityLink("Category", 22, "Cable Locks")">
+                                    Cable Locks
+                                    <span class="tool-tip-wrapper cable-lock">
+                                        <img class="img-responsive" src="/skins/skin_22_cablelocks/dist/images/tooltip-cable-lock.png">
+                                        <span>Custom Cable Locks</span>
+                                        <span>Bikes, Machinery, Industrial...</span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="@Url.BuildEntityLink("Category", 14, "Accessories")">
+                                    Accessories
+                                </a>
+                            </li>
 
                         </ul>
                         <ul class="nav navbar-nav navbar-right hidden-sm hidden-md hidden-lg">
