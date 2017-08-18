@@ -1223,155 +1223,19 @@ body > div:nth-child(11) > div > div:nth-child(4) > div > div.product-desc-wrapp
 
 //End Product Slider
 
-.prod-plp {
-    .make-md-column(12);     // 992px (min)
-    
-    @media @tablet-min {
-        margin-left: -15px;
-        padding-right: 0;
-    }
-    
-    .popular-models-head {
-        margin: 0 0 20px 0;
-    }
- 
-}
+
 
 /* Popular Model Section - Homepage
 ========================================================================== */
 //<editor-fold desc="Popular Model Section - Homepage">
-popular-items {
 
-}
 
-.item-wrapper {
-    
-    .make-xs-column(12);     // 768px (min)
-    .make-sm-column(3);     // 768px (min)
-    
-    .item {
-        border: 1px dotted @light-gray1;
-        margin-bottom: 50px;
-        
-        &:hover {
-            border-bottom: 1px solid @black;
-        }
-    }
-}
 
-// 1st wrapper inside popular model
-.item-image-wrapper {
-    text-align: center;
-    // hide default hover behavior for images
-    a:hover {
-        text-decoration: none;
-    }
-    
-    .item-title {
-        .construction-type {
-            font-size: 24px;
-            
-            @media @phone-min and @tablet-max {
-                min-height: 68px;
-            }
-        }
-        
-        .item-width {
-            @media @phone-min and @tablet-max {
-                min-height: 40px;
-            }
-        }
-    }
-    
-    .item-images {
-        margin-bottom: 5px;
-        
-        img {
-            display: inline-block;
-        
-            @media @tablet-min {
-                max-width: 35px;
-            }
-        
-            @media @desktop-min {
-                max-width: 60px;
-            }
-        }
-    }
-    
-}
+
+
 
 // 2nd wrapper inside popular model
-.item-desc-wrapper {
-    text-align: center;
-    
-    .item-models {
-        word-spacing: 11px;
-        letter-spacing: 1px;
-        
-        @media @tablet-min {
-            word-spacing: 0;
-            letter-spacing: 1px;
-        }
-        
-        @media @desktop-min {
-            word-spacing: 7px;
-            letter-spacing: 1px;
-        }
-    }
-    
-    .item-desc {
-        
-        .price-hpi {
-            margin-bottom: 20px;
-            word-spacing: 34px;
-            font-weight: bold;
-            
-            @media @tablet-min {
-                word-spacing: 6px;
-            }
-    
-            @media @desktop-min {
-                word-spacing: 24px;
-            }
-    
-            @media @phone-min and @tablet-max {
-                min-height: 40px;
-            }
-            
-        }
-        
-        .price-msrp {
-            margin-bottom: 10px;
-            font-size: 13px;
-            color: @gray-med3;
-    
-            .price {
-                word-spacing: 35px;
-                @media @tablet-min {
-                    word-spacing: 7px;
-                }
-        
-                @media @desktop-min {
-                    word-spacing: 26px;
-                }
-            }
-            
-        }
-        
-        .btn-view-details {
-            margin-bottom: 10px;
-    
-            .view-details {
-                .btn-transparent();
-                display: block;
-                margin: 0 auto;
-                text-align: center;
-                width: 125px;
-            }
-        }
-    }
-}
+
 
 //</editor-fold>
 
