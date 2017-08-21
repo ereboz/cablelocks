@@ -3,6 +3,23 @@
  */
 
 $(document).ready(function(){
+
+// PRELOAD NAV TOOL-TIP IMAGES FOR HOVER STATE
+// ==========================================================================
+    
+    function preloadimages(arr) {
+        var newimages=[]
+        var arr=(typeof arr!="object")? [arr] : arr //force arr parameter to always be an array
+        
+        for (var i=0; i<arr.length; i++) {
+            newimages[i]=new Image()
+            newimages[i].src=arr[i];
+        }
+    }
+    
+    preloadimages(['dist/images/tooltip-cable.png', 'dist/images/tooltip-cable-lock.png'])
+    
+    
     
     // smooth transition on homepage slider fade effect. using carousel-fade instead of carousel targets just the
     // first carousel.
