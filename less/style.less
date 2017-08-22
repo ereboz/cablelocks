@@ -750,40 +750,65 @@ body {
         
         .item {
             // default background for all but desktop large. desktop large has individual images.
-            //background-image: url("http://localhost:63342/cablelocks/dist/images/bg-slide-blank.jpg");
-            //background-image: url("/skins/skin_22_cablelocks/dist/images/bg-slide-blank.jpg");
+            background-image: url("http://localhost:63342/cablelocks/dist/images/carousel-main-background-0.jpg");
+            //background-image: url("/skins/skin_22_cablelocks/dist/images/carousel-main-background-0.jpg");
             
             // individual backgrounds per slide (large desktop only)
+            height: 350px !important;
             @media @desktop-large-min {
                 
                 &.slide1 {
                     height: 350px;
-                    background-image: url("http://localhost:63342/cablelocks/dist/images/carousel-main-1.jpg");
-                    //background-image: url("/skins/skin_22_cablelocks/dist/images/bg-slide-blank.jpg");
+                    //background-image: url("http://localhost:63342/cablelocks/dist/images/carousel-main-1.jpg");
+                    //background-image: url("/skins/skin_22_cablelocks/dist/images/carousel-main-background-0.jpg");
                 }
                 
                 &.slide2 {
                     height: 350px;
-                    background-image: url("http://localhost:63342/cablelocks/dist/images/carousel-main-2.jpg");
-                    //background-image: url("/skins/skin_22_cablelocks/dist/images/bg-slide2.jpg");
+                    //background-image: url("http://localhost:63342/cablelocks/dist/images/carousel-main-2.jpg");
+                    //background-image: url("/skins/skin_22_cablelocks/dist/images/carousel-main-background-0.jpg");
                 }
                 
                 &.slide3 {
                     height: 350px;
-                    background-image: url("http://localhost:63342/cablelocks/dist/images/carousel-main-3.jpg");
+                    background-image: url("http://localhost:63342/cablelocks/dist/images/carousel-main-background-3.jpg");
                     //background-image: url("/skins/skin_22_cablelocks/dist/images/bg-slide3.jpg");
+                    
+                    // override carousel-caption defaults for this slide. text is different length.
+                    .carousel-caption {
+                        @media @desktop-large-min {
+                            left: 38% !important;
+                        }
+                    }
                 }
                 &.slide4 {
                     height: 350px;
-                    background-image: url("http://localhost:63342/cablelocks/dist/images/carousel-main-4.jpg");
+                    background-image: url("http://localhost:63342/cablelocks/dist/images/carousel-main-background-4.jpg");
                     //background-image: url("/skins/skin_22_cablelocks/dist/images/bg-slide3.jpg");
+    
+                    // override carousel-caption defaults for this slide. text is different length.
+                    .carousel-caption {
+                        color: @white;
+                        
+                        h1, h2 {
+                            color: white;
+                        }
+                        
+                        p {
+                            color: lighten(@gray-medium, 30%);
+                        }
+                        
+                        @media @desktop-large-min {
+                            left: 38% !important;
+                        }
+                    }
                 }
             }
             
             img {
                 display: block;
                 max-width: 100%;
-                height: auto;
+                //height: auto;
                 
                 @media (max-width: @screen-tablet) {
                     max-width: 50%;
@@ -795,32 +820,41 @@ body {
     
     .carousel-caption {
         width: 48%;
-        top: -20%;
+        top: -10%;
         left: 45%;
         color: @black;
         text-shadow: none;
         
-        @media (min-width: @screen-xs) {  // was @screen-tablet
-            top: -8%;
-        }
-        
-        @media (min-width: @screen-desktop) {
-            top: 0;
-            left: 35%;
+        @media (max-width: @screen-tablet) {
+            left: 53%;
         }
         // just display text shadow for large desktop. doesnt look good at lower levels.
         @media (min-width: @screen-lg-desktop) {
-            text-shadow: 0 1px 2px rgba(0,0,0,.6);
+            //text-shadow: 0 1px 2px rgba(0,0,0,.6);
+            text-shadow: none;
+            top: 0;
         }
         
         h1 {
-            color: @blue;
-            font-size: 16px;
+            color: @black;
+            font-size: 30px;
             text-align: left;
             margin-bottom: 20px;
             
-            @media (min-width: @screen-xs) {  // was @screen-tablet
+            @media (min-width: @screen-desktop) {  // was @screen-tablet
                 font-size: 35px;
+                .text-shadow(1px, 1px, 1px, @gray-light);
+            }
+        }
+    
+        h2 {
+            color: @black;
+            font-size: 25px;
+            text-align: left;
+            margin-bottom: 20px;
+        
+            @media (min-width: @screen-desktop) {  // was @screen-tablet
+                font-size: 30px;
             }
         }
         
