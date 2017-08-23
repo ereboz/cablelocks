@@ -17,7 +17,7 @@ $(document).ready(function(){
         }
     }
     
-    preloadimages(['dist/images/tooltip-cable.png', 'dist/images/tooltip-cable-lock.png'])
+    preloadimages(['/skins/skin_22_cablelocks/dist/images/tooltip-cable.png', '/skins/skin_22_cablelocks/dist/images/tooltip-cable-lock.png'])
     
     
     

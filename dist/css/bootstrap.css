@@ -6887,7 +6887,7 @@ unpolluted with (col-md-4 col-lg-6, etc.)
 /* PAGE OVERRIDES
 ========================================================================== */
 body {
-  font-family: 'Overpass', sans-serif !important;
+  font-family: 'Overpass', sans-serif;
 }
 .btn {
   color: #000;
@@ -7376,18 +7376,10 @@ body {
   background-image: url("http://localhost:63342/cablelocks/dist/images/carousel-main-background-0.jpg");
 }
 @media (min-width: 1200px) {
-  #myCarousel .carousel-inner .item.slide1 {
-    height: 350px;
-  }
-  #myCarousel .carousel-inner .item.slide2 {
-    height: 350px;
-  }
   #myCarousel .carousel-inner .item.slide3 {
-    height: 350px;
     background-image: url("http://localhost:63342/cablelocks/dist/images/carousel-main-background-3.jpg");
   }
   #myCarousel .carousel-inner .item.slide4 {
-    height: 350px;
     background-image: url("http://localhost:63342/cablelocks/dist/images/carousel-main-background-4.jpg");
   }
   #myCarousel .carousel-inner .item.slide4 .carousel-caption {
@@ -7406,6 +7398,11 @@ body {
     left: 38% !important;
   }
 }
+@media (min-width: 1200px) and (max-width: 768px) {
+  #myCarousel .carousel-inner .item.slide4 .carousel-caption {
+    left: 51% !important;
+  }
+}
 @media (min-width: 1200px) and (min-width: 1200px) {
   #myCarousel .carousel-inner .item.slide4 .carousel-caption {
     left: 38% !important;
@@ -7421,28 +7418,28 @@ body {
   }
 }
 #myCarousel .carousel-caption {
-  top: -10%;
-  left: 45%;
-  width: 48%;
+  top: -9%;
+  left: 53%;
+  width: 47%;
+  font-family: "Roboto", sans-serif;
   color: #000;
   text-shadow: none;
 }
-@media (max-width: 768px) {
-  #myCarousel .carousel-caption {
-    left: 53%;
-  }
-}
 @media (min-width: 1200px) {
   #myCarousel .carousel-caption {
-    top: 0;
+    top: -3%;
+    left: 45%;
+    width: 50%;
     text-shadow: none;
   }
 }
 #myCarousel .carousel-caption h1 {
   margin-bottom: 20px;
   font-size: 30px;
+  font-weight: 700;
   color: #000;
   text-align: left;
+  letter-spacing: 1px;
 }
 @media (min-width: 992px) {
   #myCarousel .carousel-caption h1 {
@@ -7453,23 +7450,34 @@ body {
 #myCarousel .carousel-caption h2 {
   margin-bottom: 20px;
   font-size: 25px;
+  font-weight: 700;
   color: #000;
   text-align: left;
+  letter-spacing: 1px;
 }
 @media (min-width: 992px) {
   #myCarousel .carousel-caption h2 {
     font-size: 30px;
   }
 }
-#myCarousel .carousel-caption p {
-  margin: 0;
-  font-size: 9px;
+#myCarousel .carousel-caption h3 {
+  font-weight: 700;
+  text-align: left;
+  letter-spacing: 1px;
+}
+#myCarousel .carousel-caption ul {
+  margin: 0 0 0 -22px;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 30px;
   text-align: left;
 }
-@media (min-width: 480px) {
-  #myCarousel .carousel-caption p {
-    font-size: 20px;
-    line-height: 30px;
+#myCarousel .carousel-caption ul li {
+  letter-spacing: 1px;
+}
+@media (max-width: 768px) {
+  #myCarousel .carousel-caption ul {
+    font-size: 16px;
   }
 }
 #myCarousel {
