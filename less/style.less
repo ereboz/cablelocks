@@ -753,7 +753,8 @@ body {
             background-image: url("http://localhost:63342/cablelocks/dist/images/carousel-main-background-0.jpg");
             //background-image: url("/skins/skin_22_cablelocks/dist/images/carousel-main-background-0.jpg");
             
-            // individual backgrounds per slide (large desktop only)
+            // set height because left images are different widths and scale badley with
+            // .img-responsive. smaller heights have caption text cut off when height shrinks.
             height: 350px !important;
             @media @desktop-large-min {
                 
