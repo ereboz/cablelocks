@@ -7262,13 +7262,13 @@ body {
 }
 @media (min-width: 768px) {
   #myNavbar {
-    width: 65%;
+    width: 85%;
     margin: 0 auto;
   }
 }
 @media (min-width: 992px) {
   #myNavbar {
-    width: 45%;
+    width: 85%;
     margin: 0 auto;
   }
 }
@@ -7297,8 +7297,8 @@ body {
 }
 .tooltip1:hover span.tool-tip-wrapper {
   position: absolute;
-  top: 40px;
-  left: -35px;
+  top: 90%;
+  left: 0;
   z-index: 1;
   display: block;
   width: 150px;
@@ -7314,14 +7314,6 @@ body {
 
       -ms-box-shadow: 5px 5px 5px #d3d3d3;
        -o-box-shadow: 5px 5px 5px #d3d3d3;
-}
-.tooltip1:hover span.tool-tip-wrapper.cable {
-  top: 40px;
-  left: -34px;
-}
-.tooltip1:hover span.tool-tip-wrapper.cable-lock {
-  top: 40px;
-  left: -1px;
 }
 .tooltip1:hover span.tool-tip-wrapper span:first-of-type {
   display: inline-block;
@@ -7377,10 +7369,10 @@ body {
 }
 @media (min-width: 1200px) {
   #myCarousel .carousel-inner .item.slide3 {
-    background-image: url("/skins/skin_22_cablelocks/dist/images/carousel-main-background-3.jpg");
+    background-image: url("http://localhost:63342/cablelocks/dist/images/carousel-main-background-3.jpg");
   }
   #myCarousel .carousel-inner .item.slide4 {
-    background-image: url("/skins/skin_22_cablelocks/dist/images/carousel-main-background-4.jpg");
+    background-image: url("http://localhost:63342/cablelocks/dist/images/carousel-main-background-4.jpg");
   }
   #myCarousel .carousel-inner .item.slide4 .carousel-caption {
     color: #fff;
