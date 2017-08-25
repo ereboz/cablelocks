@@ -3077,10 +3077,9 @@ fieldset[disabled] .btn {
   filter: alpha(opacity=65);
   -webkit-box-shadow: none;
           box-shadow: none;
-          opacity: .65;
+       opacity: .65;
 
-  -webkit-opacity: .65;
-     -moz-opacity: .65;
+  -moz-opacity: .65;
       -ms-box-shadow: none;
        -o-box-shadow: none;
 }
@@ -5908,10 +5907,9 @@ button.list-group-item-danger.active:focus {
   color: #000;
   text-shadow: 0 1px 0 #fff;
   filter: alpha(opacity=20);
-          opacity: .2;
+       opacity: .2;
 
-  -webkit-opacity: .2;
-     -moz-opacity: .2;
+  -moz-opacity: .2;
 }
 .close:hover,
 .close:focus {
@@ -5919,10 +5917,9 @@ button.list-group-item-danger.active:focus {
   text-decoration: none;
   cursor: pointer;
   filter: alpha(opacity=50);
-          opacity: .5;
+       opacity: .5;
 
-  -webkit-opacity: .5;
-     -moz-opacity: .5;
+  -moz-opacity: .5;
 }
 button.close {
   -webkit-appearance: none;
@@ -5996,17 +5993,15 @@ button.close {
 }
 .modal-backdrop.fade {
   filter: alpha(opacity=0);
-          opacity: 0;
+       opacity: 0;
 
-  -webkit-opacity: 0;
-     -moz-opacity: 0;
+  -moz-opacity: 0;
 }
 .modal-backdrop.in {
   filter: alpha(opacity=50);
-          opacity: .5;
+       opacity: .5;
 
-  -webkit-opacity: .5;
-     -moz-opacity: .5;
+  -moz-opacity: .5;
 }
 .modal-header {
   padding: 15px;
@@ -6086,18 +6081,16 @@ button.close {
   word-wrap: normal;
   white-space: normal;
   filter: alpha(opacity=0);
-          opacity: 0;
+       opacity: 0;
 
   line-break: auto;
-  -webkit-opacity: 0;
-     -moz-opacity: 0;
+  -moz-opacity: 0;
 }
 .tooltip.in {
   filter: alpha(opacity=90);
-          opacity: .9;
+       opacity: .9;
 
-  -webkit-opacity: .9;
-     -moz-opacity: .9;
+  -moz-opacity: .9;
 }
 .tooltip.top {
   padding: 5px 0;
@@ -6413,10 +6406,9 @@ button.close {
   text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
   background-color: rgba(0, 0, 0, 0);
   filter: alpha(opacity=50);
-          opacity: .5;
+       opacity: .5;
 
-  -webkit-opacity: .5;
-     -moz-opacity: .5;
+  -moz-opacity: .5;
 }
 .carousel-control.left {
   background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, .5) 0%, rgba(0, 0, 0, .0001) 100%);
@@ -6442,10 +6434,9 @@ button.close {
   text-decoration: none;
   filter: alpha(opacity=90);
   outline: 0;
-          opacity: .9;
+       opacity: .9;
 
-  -webkit-opacity: .9;
-     -moz-opacity: .9;
+  -moz-opacity: .9;
 }
 .carousel-control .icon-prev,
 .carousel-control .icon-next,
@@ -7365,14 +7356,14 @@ body {
 }
 #myCarousel .carousel-inner .item {
   height: 350px !important;
-  background-image: url("http://localhost:63342/cablelocks/dist/images/carousel-main-background-0.jpg");
+  background-image: url("/skins/skin_22_cablelocks/dist/images/carousel-main-background-0.jpg");
 }
 @media (min-width: 1200px) {
   #myCarousel .carousel-inner .item.slide3 {
-    background-image: url("http://localhost:63342/cablelocks/dist/images/carousel-main-background-3.jpg");
+    background-image: url("/skins/skin_22_cablelocks/dist/images/carousel-main-background-3.jpg");
   }
   #myCarousel .carousel-inner .item.slide4 {
-    background-image: url("http://localhost:63342/cablelocks/dist/images/carousel-main-background-4.jpg");
+    background-image: url("/skins/skin_22_cablelocks/dist/images/carousel-main-background-4.jpg");
   }
   #myCarousel .carousel-inner .item.slide4 .carousel-caption {
     color: #fff;
@@ -7687,6 +7678,9 @@ span.glyphicon.glyphicon-chevron-left {
 .product-wrapper {
   font-size: 15px !important;
 }
+.product-wrapper .product-desc-wrapper {
+  min-height: 42px;
+}
 .product-image-bg {
   width: 90%;
   margin: 10px auto;
@@ -7858,14 +7852,14 @@ body > div:nth-child(11) > div > div:nth-child(4) > div > div.product-desc-wrapp
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: .09em;
-  background-color: #f8fafb;
+  background-color: #fbfbfb;
   -webkit-transition: all .2s ease-in-out;
        -o-transition: all .2s ease-in-out;
           transition: all .2s ease-in-out;
 }
 .product-footer-wrapper .details a.view-details:hover {
   color: #fff;
-  background-color: #497890;
+  background-color: #c8c8c8;
 }
 .product-footer-wrapper .saleOnly {
   display: inline-block;

@@ -139,26 +139,24 @@ unpolluted with (col-md-4 col-lg-6, etc.)
     .size(200px, 50px);
     padding: 14px 5px 5px 10px;
     overflow: hidden;
-    //font-family: "Roboto",sans-serif;
     font-size: 12px;
     color: @black;
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: .09em;
-    background-color: lighten(@gray-background, 1%);
+    background-color: lighten(@gray-dark, 50%);
     text-align: center;
     -webkit-transition: all .2s ease-in-out;
     -o-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
     
     &:hover {
-        background-color: @blue-primary;
+        background-color: lighten(@gray-dark, 30%);
         color: @white;
     }
 }
 
 .opacity (@opacity: 0.5) {
-    -webkit-opacity: 	@opacity;
     -moz-opacity: 		@opacity;
     opacity: 		    @opacity;
 }
@@ -741,8 +739,8 @@ body {
         
         .item {
             // default background for all but desktop large. desktop large has individual images.
-            background-image: url("http://localhost:63342/cablelocks/dist/images/carousel-main-background-0.jpg");
-            //background-image: url("/skins/skin_22_cablelocks/dist/images/carousel-main-background-0.jpg");
+            //background-image: url("http://localhost:63342/cablelocks/dist/images/carousel-main-background-0.jpg");
+            background-image: url("/skins/skin_22_cablelocks/dist/images/carousel-main-background-0.jpg");
             
             // set height because left images are different widths and scale badley with
             // .img-responsive. smaller heights have caption text cut off when height shrinks.
@@ -762,8 +760,8 @@ body {
                 }
                 
                 &.slide3 {
-                    background-image: url("http://localhost:63342/cablelocks/dist/images/carousel-main-background-3.jpg");
-                    //background-image: url("/skins/skin_22_cablelocks/dist/images/carousel-main-background-3.jpg");
+                    //background-image: url("http://localhost:63342/cablelocks/dist/images/carousel-main-background-3.jpg");
+                    background-image: url("/skins/skin_22_cablelocks/dist/images/carousel-main-background-3.jpg");
                     
                     // override carousel-caption defaults for this slide. text is different length.
                     .carousel-caption {
@@ -774,8 +772,8 @@ body {
                 }
                 
                 &.slide4 {
-                    background-image: url("http://localhost:63342/cablelocks/dist/images/carousel-main-background-4.jpg");
-                    //background-image: url("/skins/skin_22_cablelocks/dist/images/carousel-main-background-4.jpg");
+                    //background-image: url("http://localhost:63342/cablelocks/dist/images/carousel-main-background-4.jpg");
+                    background-image: url("/skins/skin_22_cablelocks/dist/images/carousel-main-background-4.jpg");
     
                     // override carousel-caption defaults for this slide. text is different length.
                     .carousel-caption {
@@ -1090,6 +1088,10 @@ span.glyphicon.glyphicon-chevron-right, span.glyphicon.glyphicon-chevron-left {
 .product-wrapper {
     //font-family: @font-roboto;
     font-size: 15px !important;
+    
+    .product-desc-wrapper {
+        min-height: 42px;
+    }
 }
 
 .product-image-bg {

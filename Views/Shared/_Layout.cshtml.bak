@@ -130,42 +130,13 @@
                                     </span>
                                 </a>
                             </li>
-							
                             <li>
-                                <a class="tooltip1" href="/category/22/cable-locks">
-                                    <span>Gun Locks</span>
-                                    <span class="tool-tip-wrapper cable-lock">
-                                        <img class="img-responsive" src="/skins/skin_22_cablelocks/dist/images/tooltip-cable-lock.png">
-                                        <span>Custom Cable Locks</span>
-                                        <span>Bikes, Machinery, Industrial...</span>
-                                    </span>
-                                </a>
-                            </li>
-
-                            <li>
-                                <a class="tooltip1" href="/category/22/cable-locks">
-                                    <span>HPI Custom Cables</span>
-                                    <span class="tool-tip-wrapper cable">
-                                        <img class="img-responsive" src="/skins/skin_22_cablelocks/dist/images/tooltip-cable-lock.png">
-                                        <span>Custom Cable Locks</span>
-                                        <span>Bikes, Machinery, Industrial...</span>
-                                    </span>
-                                </a>
-                            </li>
-
-                            <li>
-                                <a class="tooltip1" href="/category/21/cables">
-                                    <span>Master Lock Cables</span>
-                                    <span class="tool-tip-wrapper cable">
-                                        <img class="img-responsive" src="/skins/skin_22_cablelocks/dist/images/tooltip-cable.png">
-                                        <span>Custom Cables</span>
-                                        <span>Bikes, Gates, Home...</span>
-                                    </span>
+                                <a href="@Url.BuildEntityLink("Category", 14, "Accessories")">
+                                    Accessories
                                 </a>
                             </li>
 
                         </ul>
-
                         <ul class="nav navbar-nav navbar-right hidden-sm hidden-md hidden-lg">
                             <li>
                                 <a href="@Url.Action("Index", "Account")">@Html.StringResource("responsiveskin.accountlabel")
