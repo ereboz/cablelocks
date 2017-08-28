@@ -7360,14 +7360,14 @@ body {
 }
 #myCarousel .carousel-inner .item {
   height: 350px !important;
-  background-image: url("http://localhost:63342/cablelocks/dist/images/carousel-main-background-0.jpg");
+  background-image: url("/skins/skin_22_cablelocks/dist/images/carousel-main-background-0.jpg");
 }
 @media (min-width: 1200px) {
   #myCarousel .carousel-inner .item.slide3 {
-    background-image: url("http://localhost:63342/cablelocks/dist/images/carousel-main-background-3.jpg");
+    background-image: url("/skins/skin_22_cablelocks/dist/images/carousel-main-background-3.jpg");
   }
   #myCarousel .carousel-inner .item.slide4 {
-    background-image: url("http://localhost:63342/cablelocks/dist/images/carousel-main-background-4.jpg");
+    background-image: url("/skins/skin_22_cablelocks/dist/images/carousel-main-background-4.jpg");
   }
   #myCarousel .carousel-inner .item.slide4 .carousel-caption {
     color: #fff;

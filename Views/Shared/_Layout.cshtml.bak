@@ -111,32 +111,61 @@
                     <div class="collapse navbar-collapse" id="myNavbar">
                         <ul class="nav navbar-nav">
                             <li>
-                                <a class="tooltip1" href="@Url.BuildEntityLink("Category", 215, "python-cable-locks")">
+                                <a class="tooltip-wrapper" href="@Url.BuildEntityLink("Category", 215, "python-cable-locks")">
                                     <span>Python Locks</span>
-                                    <span class="tool-tip-wrapper cable-lock">
-                                        <img class="img-responsive" src="/skins/skin_22_cablelocks/dist/images/tool-tip-python-hover-3363.jpg">
+                                    <span class="tool-tip-content-wrapper">
+                                        <img class="img-responsive" src="/skins/skin_22_cablelocks/dist/images/tool-tip-python-hover-8413ka-.png">
                                         <span>Features</span>
                                         <span>Keyed Alike or Keyed Different, Braided steel</span>
                                     </span>
                                 </a>
                             </li>
                             <li>
-                                <a class="tooltip1" href="@Url.BuildEntityLink("Category", 22, "Cable Locks")">
+                                <a class="tooltip-wrapper" href="@Url.BuildEntityLink("Category", 22, "Cable Locks")">
                                     Cable Locks
-                                    <span class="tool-tip-wrapper cable-lock">
+                                    <span class="tool-tip-content-wrapper">
                                         <img class="img-responsive" src="/skins/skin_22_cablelocks/dist/images/tooltip-cable-lock.png">
-                                        <span>Custom Cable Locks</span>
+                                        <span>Features</span>
                                         <span>Bikes, Machinery, Industrial...</span>
                                     </span>
                                 </a>
                             </li>
+							
                             <li>
-                                <a href="@Url.BuildEntityLink("Category", 14, "Accessories")">
-                                    Accessories
+                                <a class="tooltip-wrapper" href="@Url.BuildEntityLink("Category", 42, "Gun Locks")">
+                                    <span>Gun Locks</span>
+                                    <span class="tool-tip-content-wrapper">
+                                        <img class="img-responsive" src="/skins/skin_22_cablelocks/dist/images/tool-tip-gunlock-hover-99dspt.png">
+                                        <span>Features</span>
+                                        <span>Gun Safety</span>
+                                    </span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="tooltip-wrapper" href="@Url.BuildEntityLink("Category", 216, "Custom Cable Kits")">
+                                    <span>HPI Custom Cables</span>
+                                    <span class="tool-tip-content-wrapper">
+                                        <img class="img-responsive" src="/skins/skin_22_cablelocks/dist/images/tooltip-cable-lock.png">
+                                        <span>Features</span>
+                                        <span>Bikes, Machinery, Industrial...</span>
+                                    </span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="tooltip-wrapper" href="@Url.BuildEntityLink("Category", 22, "Cable Locks")">
+                                    <span>Master Lock Cables</span>
+                                    <span class="tool-tip-content-wrapper">
+                                        <img class="img-responsive" src="/skins/skin_22_cablelocks/dist/images/tooltip-cable.png">
+                                        <span>Features</span>
+                                        <span>Bikes, Gates, Home...</span>
+                                    </span>
                                 </a>
                             </li>
 
                         </ul>
+
                         <ul class="nav navbar-nav navbar-right hidden-sm hidden-md hidden-lg">
                             <li>
                                 <a href="@Url.Action("Index", "Account")">@Html.StringResource("responsiveskin.accountlabel")

@@ -96,8 +96,8 @@ $(window).load(function() {
     // if on homepage, and viewport <= 600, find (.best-seller .item) within a .carousel. if not active (2nd item) add
     // .active class. This will display both rows (all 6 products) for mobilel
     
-    // if (locPath != "/") {              // local (there is something in the path. toggle to show effects)
-    if (locPath === "/") {              // server (nothing in the path)
+    if (locPath != "/") {              // local (there is something in the path. toggle to show effects)
+    // if (locPath === "/") {              // server (nothing in the path)
         pageWrapper = $(".carousel");
         
         if (viewportWidth <= 600) {
