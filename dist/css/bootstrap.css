@@ -7192,7 +7192,7 @@ body {
   border-left: 1px dotted #fff;
 }
 .sub-nav li:hover {
-  background-color: #385c6e;
+  background-color: #aeaeae;
 }
 .sub-nav li a {
   font-weight: 700;
@@ -7356,14 +7356,14 @@ body {
 }
 #myCarousel .carousel-inner .item {
   height: 350px !important;
-  background-image: url("/skins/skin_22_cablelocks/dist/images/carousel-main-background-0.jpg");
+  background-image: url("http://localhost:63342/cablelocks/dist/images/carousel-main-background-0.jpg");
 }
 @media (min-width: 1200px) {
   #myCarousel .carousel-inner .item.slide3 {
-    background-image: url("/skins/skin_22_cablelocks/dist/images/carousel-main-background-3.jpg");
+    background-image: url("http://localhost:63342/cablelocks/dist/images/carousel-main-background-3.jpg");
   }
   #myCarousel .carousel-inner .item.slide4 {
-    background-image: url("/skins/skin_22_cablelocks/dist/images/carousel-main-background-4.jpg");
+    background-image: url("http://localhost:63342/cablelocks/dist/images/carousel-main-background-4.jpg");
   }
   #myCarousel .carousel-inner .item.slide4 .carousel-caption {
     color: #fff;
@@ -7679,7 +7679,17 @@ span.glyphicon.glyphicon-chevron-left {
   font-size: 15px !important;
 }
 .product-wrapper .product-desc-wrapper {
-  min-height: 42px;
+  min-height: 36px;
+}
+@media (min-width: 768px) {
+  .product-wrapper .product-desc-wrapper {
+    min-height: 63px;
+  }
+}
+@media (min-width: 992px) {
+  .product-wrapper .product-desc-wrapper {
+    min-height: 42px;
+  }
 }
 .product-image-bg {
   width: 90%;
@@ -7840,11 +7850,9 @@ body > div:nth-child(11) > div > div:nth-child(4) > div > div.product-desc-wrapp
   position: relative;
   display: block;
   float: left;
-  width: 200px;
   width: 60%;
-  height: 50px;
   height: 45px;
-  padding: 14px 5px 5px 10px;
+  padding: 15px 0 0 0;
   overflow: hidden;
   font-size: 12px;
   color: #000;
@@ -7860,6 +7868,16 @@ body > div:nth-child(11) > div > div:nth-child(4) > div > div.product-desc-wrapp
 .product-footer-wrapper .details a.view-details:hover {
   color: #fff;
   background-color: #c8c8c8;
+}
+@media (min-width: 768px) {
+  .product-footer-wrapper .details a.view-details {
+    padding: 7px 2px 0 2px;
+  }
+}
+@media (min-width: 992px) {
+  .product-footer-wrapper .details a.view-details {
+    padding: 15px 0 0 0;
+  }
 }
 .product-footer-wrapper .saleOnly {
   display: inline-block;

@@ -136,8 +136,8 @@ unpolluted with (col-md-4 col-lg-6, etc.)
 .btn-view-details() {               // Best Sellers
     display: block;
     float: left;
-    .size(200px, 50px);
-    padding: 14px 5px 5px 10px;
+    .size(60%, 45px);
+    padding: 15px 0 0 0;
     overflow: hidden;
     font-size: 12px;
     color: @black;
@@ -523,7 +523,7 @@ body {
 		font-family: @font-roboto !important;
         
         &:hover {
-            background-color: darken(@blue-primary, 10%);
+            background-color: lighten(@gray-dark, 20%);
         }
         
 		a {
@@ -739,8 +739,8 @@ body {
         
         .item {
             // default background for all but desktop large. desktop large has individual images.
-            //background-image: url("http://localhost:63342/cablelocks/dist/images/carousel-main-background-0.jpg");
-            background-image: url("/skins/skin_22_cablelocks/dist/images/carousel-main-background-0.jpg");
+            background-image: url("http://localhost:63342/cablelocks/dist/images/carousel-main-background-0.jpg");
+            //background-image: url("/skins/skin_22_cablelocks/dist/images/carousel-main-background-0.jpg");
             
             // set height because left images are different widths and scale badley with
             // .img-responsive. smaller heights have caption text cut off when height shrinks.
@@ -760,8 +760,8 @@ body {
                 }
                 
                 &.slide3 {
-                    //background-image: url("http://localhost:63342/cablelocks/dist/images/carousel-main-background-3.jpg");
-                    background-image: url("/skins/skin_22_cablelocks/dist/images/carousel-main-background-3.jpg");
+                    background-image: url("http://localhost:63342/cablelocks/dist/images/carousel-main-background-3.jpg");
+                    //background-image: url("/skins/skin_22_cablelocks/dist/images/carousel-main-background-3.jpg");
                     
                     // override carousel-caption defaults for this slide. text is different length.
                     .carousel-caption {
@@ -772,8 +772,8 @@ body {
                 }
                 
                 &.slide4 {
-                    //background-image: url("http://localhost:63342/cablelocks/dist/images/carousel-main-background-4.jpg");
-                    background-image: url("/skins/skin_22_cablelocks/dist/images/carousel-main-background-4.jpg");
+                    background-image: url("http://localhost:63342/cablelocks/dist/images/carousel-main-background-4.jpg");
+                    //background-image: url("/skins/skin_22_cablelocks/dist/images/carousel-main-background-4.jpg");
     
                     // override carousel-caption defaults for this slide. text is different length.
                     .carousel-caption {
@@ -1090,7 +1090,15 @@ span.glyphicon.glyphicon-chevron-right, span.glyphicon.glyphicon-chevron-left {
     font-size: 15px !important;
     
     .product-desc-wrapper {
-        min-height: 42px;
+        min-height: 36px;
+        
+        @media @tablet-min {
+            min-height: 63px;
+        }
+        
+        @media @desktop-min {
+            min-height: 42px;
+        }
     }
 }
 
@@ -1255,6 +1263,14 @@ body > div:nth-child(11) > div > div:nth-child(4) > div > div.product-desc-wrapp
             position: relative;
             float: left;
             .size(60%, 45px);
+            
+            @media @tablet-min {
+                padding: 7px 2px 0 2px;
+            }
+            
+            @media @desktop-min {
+                padding: 15px 0 0 0;
+            }
         }
     }
 
