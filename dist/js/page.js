@@ -17,7 +17,7 @@ $(document).ready(function(){
         }
     }
     
-    preloadimages(['/skins/skin_22_cablelocks/dist/images/tooltip-cable.png', '/skins/skin_22_cablelocks/dist/images/tooltip-cable-lock.png'])
+    preloadimages(['/skins/skin_22_cablelocks/dist/images/tool-tip-python-hover-8413ka-.png', '/skins/skin_22_cablelocks/dist/images//tool-tip-gunlock-hover-99dspt.png"', '/skins/skin_22_cablelocks/dist/images/tooltip-cable.png'])
     
     
     
@@ -105,13 +105,6 @@ $(window).load(function() {
                 var item = $(this).find('.best-sellers .item');
                 item.addClass('active');
             })
-    
-            // move .wrapper-category (3 links to keyedalike.com, keyeddifferent.com and buildalock.com)
-            // under the best sellers for handheld mobile
-            var banners = ('.wrapper-category');
-            var popularItems = ('.popular-items.last');
-            
-            $(banners).detach().appendTo(popularItems);
             
         }
     }
