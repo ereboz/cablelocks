@@ -7283,28 +7283,27 @@ body {
   border-radius: 6px;
 }
 .tooltip-wrapper span.tool-tip-content-wrapper img {
-  margin: 10px auto 20px auto;
+  margin: 5px auto 5px auto;
 }
 .tooltip-wrapper:hover span.tool-tip-content-wrapper {
   position: absolute;
-  top: 90%;
+  top: 100%;
   left: 0;
   z-index: 1;
   display: block;
-  width: 150px;
-  max-width: 150px;
+  width: 200px;
+  max-width: 200px;
   height: auto;
   padding: 10px;
   overflow: hidden;
   color: #232f3f;
   text-align: center;
   background-color: #fff;
-  border: 1px dotted #232f3f;
-  -webkit-box-shadow: 5px 5px 5px #999;
-          box-shadow: 5px 5px 5px #999;
+  -webkit-box-shadow: 3px 3px 20px #999;
+          box-shadow: 3px 3px 20px #999;
 
-      -ms-box-shadow: 5px 5px 5px #999;
-       -o-box-shadow: 5px 5px 5px #999;
+      -ms-box-shadow: 3px 3px 20px #999;
+       -o-box-shadow: 3px 3px 20px #999;
 }
 .tooltip-wrapper:hover span.tool-tip-content-wrapper span:first-of-type {
   display: block;
@@ -7360,14 +7359,14 @@ body {
 }
 #myCarousel .carousel-inner .item {
   height: 350px !important;
-  background-image: url("http://localhost:63342/cablelocks/dist/images/carousel-main-background-0.jpg");
+  background-image: url("/skins/skin_22_cablelocks/dist/images/carousel-main-background-0.jpg");
 }
 @media (min-width: 1200px) {
   #myCarousel .carousel-inner .item.slide3 {
-    background-image: url("http://localhost:63342/cablelocks/dist/images/carousel-main-background-3.jpg");
+    background-image: url("/skins/skin_22_cablelocks/dist/images/carousel-main-background-3.jpg");
   }
   #myCarousel .carousel-inner .item.slide4 {
-    background-image: url("http://localhost:63342/cablelocks/dist/images/carousel-main-background-4.jpg");
+    background-image: url("/skins/skin_22_cablelocks/dist/images/carousel-main-background-4.jpg");
   }
   #myCarousel .carousel-inner .item.slide4 .carousel-caption {
     color: #fff;
