@@ -17,7 +17,11 @@ $(document).ready(function(){
         }
     }
     
-    preloadimages(['/skins/skin_22_cablelocks/dist/images/tool-tip-python-hover-8413ka-.png', '/skins/skin_22_cablelocks/dist/images//tool-tip-gunlock-hover-99dspt.png"', '/skins/skin_22_cablelocks/dist/images/tooltip-cable.png'])
+    preloadimages(['/skins/skin_22_cablelocks/dist/images/tool-tip-python-hover-8413ka.png',
+        '/skins/skin_22_cablelocks/dist/images/tool-tip-cable-lock-hover-8109d.png"',
+        '/skins/skin_22_cablelocks/dist/images/tool-tip-gunlock-hover-99dspt.png"',
+        '/skins/skin_22_cablelocks/dist/images/tool-tip-cable-lock-hover-8109d.png"',
+        '/skins/skin_22_cablelocks/dist/images/tool-tip-master-lock-cable-hover-72dpf.png'])
     
     
     
